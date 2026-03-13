@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOW Kids – Sharp Littles School</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Header -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-shapes logo-icon"></i>
+                <span class="logo-wow">WOW</span> 
+                <span class="logo-kids">Kids</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <nav class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#programs">Programs</a>
+                <a href="#activities">Activities</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#admissions">Admissions</a>
+                <a href="#contact">Contact</a>
+                <a href="#admissions" class="btn btn-primary nav-enroll">Enroll Now</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-padding">
+            <div class="container hero-container gap-4">
+                <div class="hero-content fade-in-left">
+                    <h1 class="hero-title">Welcome to <span class="text-pink">WOW Kids</span><br><span class="text-teal">– Sharp Littles –</span></h1>
+                    <p class="subtitle mb-4">Where Little Minds Grow Big Dreams ✨</p>
+                    <div class="hero-btns mt-4 d-flex">
+                        <a href="#admissions" class="btn btn-primary btn-lg rounded-pill shadow-soft hover-lift"><i class="fa-solid fa-paper-plane"></i> Enroll Now</a>
+                        <a href="#contact" class="btn btn-secondary btn-lg rounded-pill shadow-soft hover-lift"><i class="fa-solid fa-calendar-alt"></i> Book a Tour</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in-right">
+                    <img src="assets/images/hero.png" alt="Happy Kids at WOW Kids School" class="rounded-img shadow-strong w-100">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="about section-padding">
+            <div class="container about-container gap-4">
+                <div class="about-image fade-in-left">
+                    <img src="assets/images/about.png" alt="Teacher with students" class="rounded-img shadow-strong" id="about-img">
+                </div>
+                <div class="about-content fade-in-right">
+                    <span class="badge bg-yellow">About Us 🤔</span>
+                    <h2 class="section-title">Nurturing Creativity, Curiosity & Confidence</h2>
+                    <p class="section-desc">At WOW Kids, our vision is to foster a safe, joyful, and inclusive environment that encourages a lifelong love of learning. We believe in teaching by doing, through a robust <strong>play-based learning</strong> philosophy.</p>
+                    
+                    <ul class="about-list">
+                        <li>
+                            <i class="fa-solid fa-check-circle text-pink"></i>
+                            <div>
+                                <strong>Our Mission:</strong> To empower every child to reach their unique potential.
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check-circle text-blue"></i>
+                            <div>
+                                <strong>Passionate Educators:</strong> Highly trained and dedicated teachers.
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check-circle text-green"></i>
+                            <div>
+                                <strong>Safe Environment:</strong> Secure campus designed for young explorers.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section id="programs" class="programs section-padding bg-light-blue">
+            <div class="container">
+                <div class="section-header text-center fade-in-up">
+                    <span class="badge bg-pink">Our Classes 🎒</span>
+                    <h2 class="section-title">Programs Designed For Every Stage</h2>
+                </div>
+
+                <div class="programs-grid">
+                    <div class="program-card card-yellow fade-in-up hover-lift">
+                        <i class="fa-solid fa-baby-carriage card-icon text-yellow"></i>
+                        <h3 class="card-title">Pre-Primary</h3>
+                        <div class="age-badge">2 - 3 Yrs</div>
+                        <p class="card-desc">Sensory development, motor skills, and socializing in a warm atmosphere.</p>
+                    </div>
+
+                    <div class="program-card card-pink fade-in-up hover-lift" style="animation-delay: 100ms">
+                        <i class="fa-solid fa-shapes card-icon text-pink"></i>
+                        <h3 class="card-title">LKG</h3>
+                        <div class="age-badge">3 - 4 Yrs</div>
+                        <p class="card-desc">Basic concepts, alphabets, and numbers through engaging games.</p>
+                    </div>
+
+                    <div class="program-card card-green fade-in-up hover-lift" style="animation-delay: 200ms">
+                        <i class="fa-solid fa-book-open card-icon text-green"></i>
+                        <h3 class="card-title">UKG</h3>
+                        <div class="age-badge">4 - 5 Yrs</div>
+                        <p class="card-desc">Advanced phonics, writing skills, and early math concepts.</p>
+                    </div>
+
+                    <div class="program-card card-blue fade-in-up hover-lift" style="animation-delay: 300ms">
+                        <i class="fa-solid fa-graduation-cap card-icon text-blue"></i>
+                        <h3 class="card-title">Primary School</h3>
+                        <div class="age-badge">5 - 10 Yrs</div>
+                        <p class="card-desc">A structured curriculum building knowledge and critical thinking.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+        <section id="activities" class="activities section-padding">
+            <div class="container">
+                <div class="section-header text-center fade-in-up">
+                    <span class="badge bg-green">Fun Time 🎨</span>
+                    <h2 class="section-title">Engaging Activities</h2>
+                    <p class="section-desc">Learning happens naturally when children are having fun. Check out what they do every day!</p>
+                </div>
+                
+                <div class="activities-grid mt-4">
+                    <div class="activity-card hover-lift fade-in-up p-0 shadow-soft overflow-hidden" style="border-radius: 20px;">
+                        <img src="assets/images/activity_art.png" alt="Art and Craft" class="w-100" style="height: 200px; object-fit: cover;">
+                        <div class="p-4 bg-white text-center position-relative">
+                            <div class="activity-icon bg-pink text-white rounded-circle d-flex align-items-center justify-content-center shadow-sm" style="width: 60px; height: 60px; font-size: 1.5rem; margin: -50px auto 15px; position: relative; z-index: 2; border: 4px solid white;">
+                                <i class="fa-solid fa-palette"></i>
+                            </div>
+                            <h3>Art and Craft</h3>
+                            <p class="text-muted">Sparking imagination through colors and creativity.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card hover-lift fade-in-up p-0 shadow-soft overflow-hidden" style="animation-delay: 100ms; border-radius: 20px;">
+                        <img src="assets/images/activity_music.png" alt="Music and Dance" class="w-100" style="height: 200px; object-fit: cover;">
+                        <div class="p-4 bg-white text-center position-relative">
+                            <div class="activity-icon bg-teal text-white rounded-circle d-flex align-items-center justify-content-center shadow-sm" style="width: 60px; height: 60px; font-size: 1.5rem; margin: -50px auto 15px; position: relative; z-index: 2; border: 4px solid white;">
+                                <i class="fa-solid fa-music"></i>
+                            </div>
+                            <h3>Music and Dance</h3>
+                            <p class="text-muted">Moving to rhythm and exploring simple instruments.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card hover-lift fade-in-up p-0 shadow-soft overflow-hidden" style="animation-delay: 200ms; border-radius: 20px;">
+                        <img src="assets/images/activity_story.png" alt="Story Time" class="w-100" style="height: 200px; object-fit: cover;">
+                        <div class="p-4 bg-white text-center position-relative">
+                            <div class="activity-icon bg-yellow text-dark rounded-circle d-flex align-items-center justify-content-center shadow-sm" style="width: 60px; height: 60px; font-size: 1.5rem; margin: -50px auto 15px; position: relative; z-index: 2; border: 4px solid white;">
+                                <i class="fa-solid fa-book-open-reader"></i>
+                            </div>
+                            <h3>Story Time</h3>
+                            <p class="text-muted">Building vocabulary through enchanting tales.</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card hover-lift fade-in-up p-0 shadow-soft overflow-hidden" style="animation-delay: 300ms; border-radius: 20px;">
+                        <img src="assets/images/activity_outdoor.png" alt="Outdoor Play" class="w-100" style="height: 200px; object-fit: cover;">
+                        <div class="p-4 bg-white text-center position-relative">
+                            <div class="activity-icon bg-green text-dark rounded-circle d-flex align-items-center justify-content-center shadow-sm" style="width: 60px; height: 60px; font-size: 1.5rem; margin: -50px auto 15px; position: relative; z-index: 2; border: 4px solid white;">
+                                <i class="fa-solid fa-tree"></i>
+                            </div>
+                            <h3>Outdoor Play</h3>
+                            <p class="text-muted">Developing teamwork in our large playground.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery section-padding bg-light-yellow">
+            <div class="container">
+                <div class="section-header text-center fade-in-up">
+                    <span class="badge bg-blue">Memories 📸</span>
+                    <h2 class="section-title">WOW Kids Gallery</h2>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item"><img src="assets/images/gallery1.png" alt="Kids learning" onerror="this.src='https://via.placeholder.com/400x300/FFB7B2/FFF?text=Learning'"></div>
+                    <div class="gallery-item"><img src="assets/images/gallery2.png" alt="Kids playing" onerror="this.src='https://via.placeholder.com/400x300/A8E6CF/FFF?text=Playing'"></div>
+                    <div class="gallery-item"><img src="assets/images/gallery3.png" alt="Events" onerror="this.src='https://via.placeholder.com/400x300/FFD3B6/FFF?text=Events'"></div>
+                    <div class="gallery-item"><img src="assets/images/gallery4.png" alt="Art" onerror="this.src='https://via.placeholder.com/400x300/C7CEEA/FFF?text=Art'"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admissions Section -->
+        <section id="admissions" class="admissions section-padding">
+            <div class="container gap-4 admissions-container">
+                <div class="admissions-info fade-in-left">
+                    <span class="badge bg-pink">Join Us 👋</span>
+                    <h2 class="section-title">Admission Process</h2>
+                    <ol class="timeline-list">
+                        <li><strong>Submit Enquiry:</strong> Fill out the form online.</li>
+                        <li><strong>Campus Tour & Interview:</strong> Meet our educators.</li>
+                        <li><strong>Submit Documents:</strong> Birth certificate, medical records.</li>
+                        <li><strong>Welcome to WOW Kids!</strong> Pay fee and you're set!</li>
+                    </ol>
+                </div>
+                
+                <div class="admissions-form-wrap fade-in-right">
+                    <div class="form-card card-shadow p-4 bg-white rounded-lg">
+                        <h3 class="mb-4 text-center">Registration Form</h3>
+                        <form id="enrollment-form">
+                            <div class="form-group mb-3">
+                                <label for="parentName">Parent's Name *</label>
+                                <input type="text" id="parentName" class="form-control w-100 p-2 border rounded" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="childName">Child's Name *</label>
+                                <input type="text" id="childName" class="form-control w-100 p-2 border rounded" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="childAge">Child's Age *</label>
+                                <select id="childAge" class="form-control w-100 p-2 border rounded" required>
+                                    <option value="">Select Age</option>
+                                    <option value="2-3">2-3 Yrs (Pre-Primary)</option>
+                                    <option value="3-4">3-4 Yrs (LKG)</option>
+                                    <option value="4-5">4-5 Yrs (UKG)</option>
+                                    <option value="5-10">5-10 Yrs (Primary)</option>
+                                </select>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="phone">Phone *</label>
+                                <input type="tel" id="phone" class="form-control w-100 p-2 border rounded" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block rounded-pill w-100 py-3 shadow-strong hover-lift text-bold" style="font-size: 1.1rem">Submit Registration</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section section-padding bg-light-blue" id="faqs">
+            <div class="container faq-container">
+                <h2 class="section-title text-center">Parent FAQ</h2>
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question w-100 text-left p-3 border-0 bg-white rounded shadow-sm d-flex justify-content-between align-items-center mb-2 font-weight-bold">What are the school timings? <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="faq-answer p-3 bg-light rounded mb-3 d-none">Our hours are 8:30 AM to 1:00 PM for Kindergartens, up to 3:00 PM for Primary.</div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question w-100 text-left p-3 border-0 bg-white rounded shadow-sm d-flex justify-content-between align-items-center mb-2 font-weight-bold">Do you provide meals? <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="faq-answer p-3 bg-light rounded mb-3 d-none">Yes, nutritious snacks and lunch prepared in our hygienic kitchen.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container text-center fade-in-up">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-grid gap-4 mt-4">
+                    <div class="info-card p-4 bg-white shadow-soft rounded-lg hover-lift">
+                        <i class="fa-solid fa-map-location-dot text-pink fa-2x mb-3"></i>
+                        <h4>Address</h4>
+                        <p>123 Rainbow Avenue, Starling Heights</p>
+                    </div>
+                    <div class="info-card p-4 bg-white shadow-soft rounded-lg hover-lift">
+                        <i class="fa-solid fa-phone text-blue fa-2x mb-3"></i>
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-card p-4 bg-white shadow-soft rounded-lg hover-lift">
+                        <i class="fa-solid fa-envelope text-yellow fa-2x mb-3"></i>
+                        <h4>Email</h4>
+                        <p>hello@wowkidsschool.edu</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 WOW Kids - Sharp Littles School.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <a href="#admissions" class="floating-btn"><i class="fa-solid fa-user-plus"></i></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
